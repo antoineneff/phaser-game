@@ -14,7 +14,7 @@ var init = function () {
     var menuState = {
         preload: function () {
             game.load.spritesheet('button', '../assets/start-button.png');
-            game.load.image('background', '../assets/background.jpeg');
+            game.load.image('background', '../assets/starfield.jpg');
         },
 
         create: function () {
@@ -33,7 +33,7 @@ var init = function () {
 
     var mainState = {
         preload: function () {
-            game.load.image('background', '../assets/background.jpeg');
+            game.load.image('background', '../assets/starfield.jpg');
             game.load.image('spaceship', '../assets/ufo.png');
             game.load.image('planet', '../assets/planet.png');
             game.load.audio('jump', '../assets/jump.wav');
@@ -91,7 +91,7 @@ var init = function () {
 
     var overState = {
         preload: function () {
-            game.load.image('background', '../assets/background.jpeg');
+            game.load.image('background', '../assets/starfield.jpg');
             game.load.spritesheet('button', '../assets/start-button.png');
         },
 
